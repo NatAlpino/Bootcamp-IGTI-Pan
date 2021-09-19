@@ -1,0 +1,46 @@
+html {
+  font-size: 18px;
+  font-family: Arial;
+}
+
+ul.tabel > li {
+  list-style: none;
+  border-width: 2px;
+  border-color: #a0a0a0;
+  padding: 4px 8px;
+  border-left-style: solid;
+  border-right-style: solid;
+}
+
+ul.tabel {
+  color: #353535;
+}
+
+ul.tabel > li:first-child {
+  border-top-style: solid;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+ul.tabel > li:last-child {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-style: solid;
+}
+
+ul.tabel > li:hover {
+  background-color: #ebebeb;
+}
+
+ul.tabel > li.selecionado {
+  background-color: #bfdbff;
+  border-color: #2e79db;
+  border-bottom-style: solid;
+}
+
+ul.tabel > li:not(.selecionado) + li {
+    border-top-style: solid;
+} 
+
+
+
